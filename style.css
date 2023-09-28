@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  background-color: #F9F8FA;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#bannerL{
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+  background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/organic-products-hero.png);
+  justify-content: center;
+  background-size: cover;
+  margin: 50px;
+}
+#bannerR{
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+  justify-content: center;
+}
+#bannerR>h1{
+  /* font-size: 52px; */
+  font-size: 3.25rem;
+  /* margin: 0px 0px 20px; */
+  font-family: 'Merriweather' , serif;
+  line-height: 1.3em;
+}
+#bannerR>h5{
+  font-size: 17px;
+  font-family: 'Merriweather' , serif;
+}
