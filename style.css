@@ -1,21 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-#main{
-  background-color: #F9F8FA;
-  width: 100%;
+#main {
+  position: relative;
+  overflow: hidden;
+  /* width: 100%;
   height: 100%;
-  display: flex;
+  display: flex; */
+}
+#page1 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #4562f7;
 }
 
-#bannerL{
+#bannerL {
+  position: absolute;
   height: 100%;
   width: 50%;
   /* background-color: blue; */
@@ -24,20 +33,21 @@ html,body{
   background-size: cover;
   margin: 50px;
 }
-#bannerR{
+#bannerR {
+  position: absolute;
   height: 100%;
   width: 50%;
   background-color: orange;
   justify-content: center;
 }
-#bannerR>h1{
+#bannerR > h1 {
   /* font-size: 52px; */
   font-size: 3.25rem;
   /* margin: 0px 0px 20px; */
-  font-family: 'Merriweather' , serif;
+  font-family: "Merriweather", serif;
   line-height: 1.3em;
 }
-#bannerR>h5{
+#bannerR > h5 {
   font-size: 17px;
-  font-family: 'Merriweather' , serif;
+  font-family: "Merriweather", serif;
 }
