@@ -125,10 +125,16 @@ body {
   /* margin-top: 13px; */
   margin-left: 40px;
 }
-.nav-items{
+.nav-item5{
+  align-items: flex-end;
+}
+
+
+
+/* .nav-items{
   display: flex;
   justify-content: space-evenly;
-}
+} */
 .navbarR {
   height: 100px;
   width: 50%;
@@ -136,5 +142,10 @@ body {
   color: #7B7B7B;
   display: flex;
   align-items: center;
+  justify-content: end;
   justify-content: space-evenly;
+}
+#main-div{
+  display: flex;
+  /* justify-content: space-between; */
 }
