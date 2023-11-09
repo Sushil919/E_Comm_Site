@@ -136,17 +136,26 @@ body {
   margin-left: 15%;
   margin-top: 6%;
 }
-
+/* 
 #below_1{
   background-color: black;
   width: 100%;
-}
+} */
 #page2 {
   /* position: relative; */
-  background-color: #18cb21;
+  background-color: white;
   height: 100vh;
   width: 100vw;
   /* display: flex */
+}
+#pg_2a{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+#page2 img{
+  display: flex;
+  justify-content: center;
 }
 #page3 {
   height: 100vh;
